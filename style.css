@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mazeGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.mazeRow {
+    display: flex;
+}
+
+.mazeColumn {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
